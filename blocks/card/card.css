@@ -1,0 +1,14 @@
+.card {
+  max-width: 328px;
+  width: 91%;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/*# sourceMappingURL=card.css.map */

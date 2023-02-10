@@ -1,0 +1,11 @@
+.body {
+  margin: 0;
+  width: 100%;
+  max-width: 1600px;
+  min-width: 360px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  font-family: Raleway, Arial, sans-serif;
+}
+
+/*# sourceMappingURL=body.css.map */

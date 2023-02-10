@@ -1,0 +1,16 @@
+.card__button {
+  width: 288px;
+  height: 64px;
+  border: none;
+  background-color: #00AAAA;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 20px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/*# sourceMappingURL=card__button.css.map */

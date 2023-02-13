@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -22,7 +22,7 @@
       <div class="card card_style_blue">
         <div class="card__info">
           <h2 class="card__title">Минимальный</h2>
-          <div class="card__img card__img_background_min"></div>
+          <img src="./images/card__img_background_min.svg" class="card__img" alt="Cтикер">
           <ul class="card__list">
             <li class="card__element">15 дней доступа к прямым контактам</li>
             <li class="card__element">Актуальная база</li>
@@ -39,7 +39,7 @@
       <div class="card card_style_blue">
         <div class="card__info">
           <h2 class="card__title">Базовый</h2>
-          <div class="card__img card__img_background_base"></div>
+          <img src="./images/card__img_background_baza.svg" class="card__img" alt="Cтикер">
           <ul class="card__list">
             <li class="card__element">30 дней доступа к прямым контактам</li>
             <li class="card__element">Актуальная база</li>
@@ -56,7 +56,7 @@
       <div class="card card_style_blue card_style_shadow">
         <div class="card__info">
           <h2 class="card__title">VIP</h2>
-          <div class="card__img card__img_background_brilliant"></div>
+          <img src="./images/card__img_background_brilliant.svg" class="card__img" alt="Cтикер">
           <ul class="card__list">
             <li class="card__element">60 дней доступа к прямым контактам</li>
             <li class="card__element">Актуальная база</li>
@@ -67,7 +67,8 @@
         </div>
         <p class="card__info-advance">
           После оплаты данного тарифа напишите в Телеграм
-          @info_baliving для получения доступа к боту @balivingBot
+          <a href="https://t.me/info_baliving" class="card__link">@info_baliving</a> для получения доступа к боту
+          <a href="https://t.me/balivingBot" class="card__link">@balivingBot</a>
         </p>
         <div class="card__price">
           <p class="card__cost card__cost_text_through">4990 &#8381;</p>
@@ -81,8 +82,8 @@
 
     <section class="info info_style_salad">
       <p class="info__text">
-        При оплате доступа на 15 или 30 дней, напишите в Телеграм @info_baliving и получите
-        бесплатно доступ на 24 часа к боту @balivingBot, который автоматически отправляет все подходящие
+        При оплате доступа на 15 или 30 дней, напишите в Телеграм <a href="https://t.me/info_baliving" class="info__link">@info_baliving</a> и получите
+        бесплатно доступ на 24 часа к боту <a href="https://t.me/balivingBot" class="info__link">@balivingBot</a>, который автоматически отправляет все подходящие
         вам варианты, как только они появятся на сайте.
       </p>
     </section>
@@ -92,7 +93,7 @@
       <div class="card card_style_red">
         <div class="card__info">
           <h2 class="card__title">Безопасная сделка</h2>
-          <div class="card__img card__img_background_lock"></div>
+          <img src="./images/card__img_background_lock.svg" class="card__img" alt="Cтикер">
           <p class="card__element">Проверяем виллы с любых площадок:</p>
           <ul class="card__list">
             <li class="card__element">Съездим на объект</li>
@@ -114,7 +115,7 @@
       <div class="card card_style_red">
         <div class="card__info">
           <h2 class="card__title">Подбор жилья</h2>
-          <div class="card__img card__img_background_glass"></div>
+          <img src="./images/card__img_background_glass.svg" class="card__img" alt="Cтикер">
           <p class="card__element">Подбираем жильё под ваш запрос в течение 15 дней:</p>
           <ul class="card__list">
             <li class="card__element">Найдём жильё в нашем каталоге, соц. сетях, AirBnb, местных сайтах</li>
@@ -133,7 +134,7 @@
       <div class="card card_style_red card_style_shadow-sand">
         <div class="card__info">
           <h2 class="card__title">Подбор жилья с гарантией</h2>
-          <div class="card__img card__img_background_guarantee"></div>
+          <img src="./images/card__img_background_guarantee.svg" class="card__img" alt="Cтикер">
           <p class="card__element">Подбираем жильё под ключ с гарантией:</p>
           <ul class="card__list">
             <li class="card__element">Найдём жильё в нашем каталоге, соц. сетях, AirBnb, местных сайтах, и напрямую у местных</li>
@@ -154,11 +155,45 @@
       <p class="info__text">
         Возникли трудности с оплатой? Можно оплатить переводом на карту Сбер, Тинькофф, КаспиKZ, криптовалютой.
       </p>
-      <a class="info__link">Получить реквизиты&#10230;</a>
+      <a href="#" class="info__link">Получить реквизиты&#10230;</a>
     </section>
 
     <section class="questions">
+      <h2 class="questions__title">Частые вопросы</h2>
+      <div class="question">
+        <p class="question__paragraph">Безопасна ли оплата тарифа через сайт?</p>
+        <button type="button" class="questions__button"></button>
+      </div>
 
+      <div class="question">
+        <p class="question__paragraph">Зачем сайт если я могу искать самостоятельно в соц. сетях?</p>
+        <button type="button" class="questions__button"></button>
+      </div>
+
+      <div class="question">
+        <p class="question__paragraph">Актуальна ли база объявлений?</p>
+        <button type="button" class="questions__button"></button>
+      </div>
+
+      <div class="question">
+        <p class="question__paragraph">Берёте ли вы комиссию за аренду недвижимости?</p>
+        <button type="button" class="questions__button"></button>
+      </div>
+
+      <div class="question">
+        <p class="question__paragraph">Что я получу после оплаты тарифа?</p>
+        <button type="button" class="questions__button"></button>
+      </div>
+
+      <div class="question">
+        <p class="question__paragraph">Чем будет полезен личный помощник?</p>
+        <button type="button" class="questions__button"></button>
+      </div>
+
+      <div class="question">
+        <p class="question__paragraph">Могу ли я оплатить тариф с иностранной карты?</p>
+        <button type="button" class="questions__button"></button>
+      </div>
     </section>
 
   </main>

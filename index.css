@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
 .header {
   margin: 0;
   width: 100%;
@@ -78,6 +78,11 @@
   width: 90%;
 }
 
+.card__link {
+  text-decoration: none;
+  color: #00AAAA;
+}
+
 .card__title {
   margin: 0;
   text-align: center;
@@ -92,33 +97,9 @@
   margin: 16px 0;
   width: 53px;
   aspect-ratio: 53/72;
-  background-size: contain;
+  object-fit: contain;
   box-sizing: border-box;
   background-repeat: no-repeat;
-}
-
-.card__img_background_min {
-  background-image: url("../../../../images/card__img_background_min.svg");
-}
-
-.card__img_background_base {
-  background-image: url("../../../../images/card__img_background_baza.svg");
-}
-
-.card__img_background_brilliant {
-  background-image: url("../../../../images/card__img_background_brilliant.svg");
-}
-
-.card__img_background_lock {
-  background-image: url("../../../../images/card__img_background_lock.svg");
-}
-
-.card__img_background_glass {
-  background-image: url("../../../../images/card__img_background_glass.svg");
-}
-
-.card__img_background_guarantee {
-  background-image: url("../../../../images/card__img_background_guarantee.svg");
 }
 
 .card__list {
@@ -144,6 +125,7 @@
   line-height: 12px;
   margin: 8px auto 4px;
   width: 90%;
+  text-decoration: none;
 }
 
 .card__price {
@@ -156,11 +138,13 @@
 }
 
 .card__cost {
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 600;
   font-size: 18px;
   line-height: 26px;
   margin: 0;
   box-sizing: border-box;
+  font-feature-settings: "pnum" on, "lnum" on, "ss09" on;
 }
 
 .card__cost_text_through {
@@ -201,7 +185,7 @@
 
 .info {
   margin: 0 auto;
-  width: 90%;
+  width: 91%;
   min-width: 328px;
   max-width: 1100px;
   display: flex;
@@ -226,6 +210,8 @@
   font-size: 16px;
   line-height: 20px;
   align-self: start;
+  text-decoration: none;
+  color: black;
 }
 
 .info_style_salad {
@@ -234,6 +220,63 @@
 
 .info_style_sand {
   background-color: #FAF3ED;
+}
+
+.questions {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  min-width: 328px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.questions__title {
+  margin: 40px auto 0;
+  padding-bottom: 40px;
+  width: 91%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  width: 91%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #CCCCCC;
+  box-sizing: border-box;
+}
+
+.questions__button {
+  background-image: url("../../../images/qustion__button.svg");
+  background-color: rgba(0, 0, 0, 0);
+  width: 16px;
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.question__paragraph {
+  margin: 0;
+  width: 77%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on, "ss09" on;
 }
 
 /*# sourceMappingURL=index.css.map */

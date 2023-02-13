@@ -1,8 +1,8 @@
 .card__img {
-  margin: 16px 0 ;
+  margin: 16px 0;
   width: 53px;
   aspect-ratio: 53/72;
-  background-size: contain;
+  object-fit: contain;
   box-sizing: border-box;
   background-repeat: no-repeat;
 }

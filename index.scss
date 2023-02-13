@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 @import "./variables.scss";
 @import "./blocks/header/header.scss";
 @import "./blocks/body/body.scss";
@@ -11,14 +11,9 @@
 @import "./blocks/card/_style/card_style_blue.scss";
 @import "./blocks/card/_style/card_style_red.scss";
 @import "./blocks/card/__info/card__info.scss";
+@import "./blocks/card/__link/card__link.scss";
 @import "./blocks/card/__title/card__title.scss";
 @import "./blocks/card/__img/card__img.scss";
-@import "./blocks/card/__img/_background/card__img_background_min.scss";
-@import "./blocks/card/__img/_background/card__img_background_base.scss";
-@import "./blocks/card/__img/_background/card__img_background_brilliant.scss";
-@import "./blocks/card/__img/_background/card__img_background_lock.scss";
-@import "./blocks/card/__img/_background/card__img_background_glass.scss";
-@import "./blocks/card/__img/_background/card__img_background_guarantee.scss";
 @import "./blocks/card/__list/card__list.scss";
 @import "./blocks/card/__element/card__element.scss";
 @import "./blocks/card/__info-advance/card__info-advance.scss";
@@ -34,3 +29,8 @@
 @import "blocks/info/__link/info__link.scss";
 @import "blocks/info/_style/info_style_salad.scss";
 @import "blocks/info/_style/info_style_sand.scss";
+@import "blocks/questions/questions.scss";
+@import "blocks/questions/__title/questions__title.scss";
+@import "blocks/question/question.scss";
+@import "blocks/question/__button/question__button.scss";
+@import "blocks/question/__paragraph/question__paragraph.scss";

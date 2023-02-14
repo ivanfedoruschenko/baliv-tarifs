@@ -1,0 +1,11 @@
+.questions__title {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+/*# sourceMappingURL=questions__title.css.map */

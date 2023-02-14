@@ -1,0 +1,9 @@
+.question__paragraph {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on, "ss09" on;
+}
+
+/*# sourceMappingURL=question__paragraph.css.map */
